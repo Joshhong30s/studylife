@@ -3,7 +3,7 @@
 export default function Blog(props) {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-col justify-center px-16 py-4 w-full text-base leading-6 bg-white border-b border-solid border-b-[color:var(--Border-primary,#000)] max-md:px-5 max-md:max-w-full">
+      <div className="flex flex-col justify-center px-16 py-4 w-full text-base leading-6 bg-neutral-100 border-b border-solid border-b-[color:var(--Border-primary,#000)] max-md:px-5 max-md:max-w-full">
         <div className="flex gap-5 justify-between items-center w-full max-md:flex-wrap max-md:mr-1 max-md:max-w-full">
           <img
             loading="lazy"

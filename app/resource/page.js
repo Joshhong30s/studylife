@@ -3,11 +3,11 @@
 export default function Resource(props) {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-col justify-center px-16 py-4 w-full text-base leading-6 bg-white border-b border-solid border-b-[color:var(--Border-primary,#000)] max-md:px-5 max-md:max-w-full">
+      <div className="flex flex-col justify-center px-16 py-4 w-full text-base leading-6 border-b border-solid bg-neutral-100 border-b-[color:var(--buttons-primary,#F90)] max-md:px-5 max-md:max-w-full">
         <div className="flex gap-5 justify-between items-center w-full max-md:flex-wrap max-md:mr-1 max-md:max-w-full">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/fd166a8b8be557ac40a458d4488321de19471d80f20ad99f39bd82e0c2d04d3f?apiKey=074c83f0827040edbff71f710b0abb50&"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/2307b7acf31def1efb2328f17c62e48da489deebec1df544912a96c98112f520?apiKey=074c83f0827040edbff71f710b0abb50&"
             className="self-stretch my-auto aspect-[2.33] w-[63px]"
           />
           <div className="flex gap-5 justify-between self-stretch my-auto text-black max-md:flex-wrap max-md:max-w-full">
@@ -23,19 +23,19 @@ export default function Resource(props) {
               />
             </div>
           </div>
-          <div className="justify-center self-stretch px-5 py-2 text-white whitespace-nowrap bg-black border border-solid border-[color:var(--Color-Brand-black,#000)]">
+          <div className="justify-center self-stretch px-5 py-2 whitespace-nowrap bg-amber-500 border border-solid border-[color:var(--buttons-primary,#F90)] text-zinc-800">
             Sign Up
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-start px-16 py-12 w-full bg-white max-md:px-5 max-md:max-w-full">
-        <div className="mt-16 text-base font-semibold leading-6 text-black max-md:mt-10 max-md:max-w-full">
+      <div className="flex flex-col items-start px-16 py-12 w-full bg-neutral-100 max-md:px-5 max-md:max-w-full">
+        <div className="mt-16 text-base font-semibold leading-6 text-zinc-800 max-md:mt-10 max-md:max-w-full">
           Blog
         </div>
-        <div className="mt-4 text-6xl font-bold text-black leading-[67.2px] max-md:max-w-full max-md:text-4xl">
+        <div className="mt-4 text-6xl font-bold leading-[67.2px] text-zinc-800 max-md:max-w-full max-md:text-4xl">
           Discover the Best Resources
         </div>
-        <div className="mt-6 text-lg leading-7 text-black max-md:max-w-full">
+        <div className="mt-6 text-lg leading-7 text-zinc-800 max-md:max-w-full">
           Explore our featured resources for studying abroad.
         </div>
         <div className="self-stretch mt-20 max-md:mt-10 max-md:max-w-full">
@@ -48,7 +48,7 @@ export default function Resource(props) {
               />
             </div>
             <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col self-stretch pl-12 my-auto text-sm leading-5 text-black max-md:mt-10 max-md:max-w-full">
+              <div className="flex flex-col self-stretch pl-12 my-auto text-sm leading-5 text-zinc-800 max-md:mt-10 max-md:max-w-full">
                 <div className="font-semibold max-md:max-w-full">Category</div>
                 <div className="mt-2 text-3xl font-bold leading-10 max-md:max-w-full">
                   10 Tips for a Successful Study Abroad Experience
@@ -81,8 +81,8 @@ export default function Resource(props) {
             </div>
           </div>
         </div>
-        <div className="flex gap-4 justify-between items-center mt-24 text-base leading-6 text-black max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-          <div className="grow justify-center self-stretch px-4 py-2 whitespace-nowrap border border-solid border-[color:var(--Border-primary,#000)]">
+        <div className="flex gap-4 justify-between items-center mt-24 text-base leading-6 text-zinc-800 max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
+          <div className="grow justify-center self-stretch px-4 py-2 whitespace-nowrap border border-solid border-[color:var(--buttons-primary,#F90)]">
             View all
           </div>
           <div className="self-stretch my-auto">Category one</div>
@@ -95,7 +95,7 @@ export default function Resource(props) {
         <div className="self-stretch mt-16 max-md:mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
             <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow text-sm leading-5 text-black max-md:mt-8">
+              <div className="flex flex-col grow text-sm leading-5 text-zinc-800 max-md:mt-8">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&"
@@ -132,7 +132,7 @@ export default function Resource(props) {
               </div>
             </div>
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow text-sm leading-5 text-black max-md:mt-8">
+              <div className="flex flex-col grow text-sm leading-5 text-zinc-800 max-md:mt-8">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&"
@@ -170,7 +170,7 @@ export default function Resource(props) {
               </div>
             </div>
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow text-sm leading-5 text-black max-md:mt-8">
+              <div className="flex flex-col grow text-sm leading-5 text-zinc-800 max-md:mt-8">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&"
@@ -212,7 +212,7 @@ export default function Resource(props) {
         <div className="self-stretch mt-16 mb-10 max-md:mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
             <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow text-sm leading-5 text-black max-md:mt-8">
+              <div className="flex flex-col grow text-sm leading-5 text-zinc-800 max-md:mt-8">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&"
@@ -249,7 +249,7 @@ export default function Resource(props) {
               </div>
             </div>
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow text-sm leading-5 text-black max-md:mt-8">
+              <div className="flex flex-col grow text-sm leading-5 text-zinc-800 max-md:mt-8">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&"
@@ -287,7 +287,7 @@ export default function Resource(props) {
               </div>
             </div>
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow text-sm leading-5 text-black max-md:mt-8">
+              <div className="flex flex-col grow text-sm leading-5 text-zinc-800 max-md:mt-8">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/122cc5aed5804ca809ca8450dcd64ebbdfd84cddcd21eeed9c724abd06576dd5?apiKey=074c83f0827040edbff71f710b0abb50&"
@@ -327,80 +327,80 @@ export default function Resource(props) {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center px-20 py-12 w-full text-lg font-bold leading-7 text-black bg-white max-md:px-5 max-md:max-w-full">
+      <div className="flex flex-col items-center px-20 py-12 w-full text-lg font-bold leading-7 bg-neutral-100 text-zinc-800 max-md:px-5 max-md:max-w-full">
         <div className="mt-16 text-5xl text-center leading-[57.6px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
           FAQs
         </div>
         <div className="mt-6 text-center max-md:max-w-full">
           Find quick answers to common queries about studying abroad.
         </div>
-        <div className="mt-20 max-w-full h-px bg-black border border-solid border-[color:var(--Border-primary,#000)] w-[768px] max-md:mt-10" />
+        <div className="mt-20 max-w-full h-px bg-amber-500 border border-solid border-[color:var(--buttons-primary,#F90)] w-[768px] max-md:mt-10" />
         <div className="flex gap-3 py-5 max-w-full w-[768px] max-md:flex-wrap">
           <div className="grow self-start mt-1 max-md:max-w-full">
             What are the requirements?
           </div>
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/69fd6427058ee67f8204d7181bfd78078b1cc7cce05a22cb68f7a71e8a32e01c?apiKey=074c83f0827040edbff71f710b0abb50&"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a4f48736e731dea046eb4387aac663aeaecbc83ae7c4f6208036ebabdbe3a70?apiKey=074c83f0827040edbff71f710b0abb50&"
             className="w-8 aspect-square"
           />
         </div>
-        <div className="max-w-full h-px bg-black border border-solid border-[color:var(--Border-primary,#000)] w-[768px]" />
+        <div className="max-w-full h-px bg-amber-500 border border-solid border-[color:var(--buttons-primary,#F90)] w-[768px]" />
         <div className="flex gap-3 py-5 max-w-full w-[768px] max-md:flex-wrap">
           <div className="grow self-start mt-1 max-md:max-w-full">
             How do I apply?
           </div>
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/69fd6427058ee67f8204d7181bfd78078b1cc7cce05a22cb68f7a71e8a32e01c?apiKey=074c83f0827040edbff71f710b0abb50&"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a4f48736e731dea046eb4387aac663aeaecbc83ae7c4f6208036ebabdbe3a70?apiKey=074c83f0827040edbff71f710b0abb50&"
             className="w-8 aspect-square"
           />
         </div>
-        <div className="max-w-full h-px bg-black border border-solid border-[color:var(--Border-primary,#000)] w-[768px]" />
+        <div className="max-w-full h-px bg-amber-500 border border-solid border-[color:var(--buttons-primary,#F90)] w-[768px]" />
         <div className="flex gap-3 py-5 max-w-full w-[768px] max-md:flex-wrap">
           <div className="grow self-start mt-1 max-md:max-w-full">
             What are the costs?
           </div>
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/69fd6427058ee67f8204d7181bfd78078b1cc7cce05a22cb68f7a71e8a32e01c?apiKey=074c83f0827040edbff71f710b0abb50&"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a4f48736e731dea046eb4387aac663aeaecbc83ae7c4f6208036ebabdbe3a70?apiKey=074c83f0827040edbff71f710b0abb50&"
             className="w-8 aspect-square"
           />
         </div>
-        <div className="max-w-full h-px bg-black border border-solid border-[color:var(--Border-primary,#000)] w-[768px]" />
+        <div className="max-w-full h-px bg-amber-500 border border-solid border-[color:var(--buttons-primary,#F90)] w-[768px]" />
         <div className="flex gap-3 py-5 max-w-full w-[768px] max-md:flex-wrap">
           <div className="grow self-start mt-1 max-md:max-w-full">
             Can I work while studying?
           </div>
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/69fd6427058ee67f8204d7181bfd78078b1cc7cce05a22cb68f7a71e8a32e01c?apiKey=074c83f0827040edbff71f710b0abb50&"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a4f48736e731dea046eb4387aac663aeaecbc83ae7c4f6208036ebabdbe3a70?apiKey=074c83f0827040edbff71f710b0abb50&"
             className="w-8 aspect-square"
           />
         </div>
-        <div className="max-w-full h-px bg-black border border-solid border-[color:var(--Border-primary,#000)] w-[768px]" />
+        <div className="max-w-full h-px bg-amber-500 border border-solid border-[color:var(--buttons-primary,#F90)] w-[768px]" />
         <div className="flex gap-3 py-5 max-w-full w-[768px] max-md:flex-wrap">
           <div className="grow self-start mt-1 max-md:max-w-full">
             What support is available?
           </div>
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/69fd6427058ee67f8204d7181bfd78078b1cc7cce05a22cb68f7a71e8a32e01c?apiKey=074c83f0827040edbff71f710b0abb50&"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a4f48736e731dea046eb4387aac663aeaecbc83ae7c4f6208036ebabdbe3a70?apiKey=074c83f0827040edbff71f710b0abb50&"
             className="w-8 aspect-square"
           />
         </div>
-        <div className="max-w-full h-px bg-black border border-solid border-[color:var(--Border-primary,#000)] w-[768px]" />
+        <div className="max-w-full h-px bg-amber-500 border border-solid border-[color:var(--buttons-primary,#F90)] w-[768px]" />
         <div className="mt-20 text-3xl leading-10 text-center max-md:mt-10 max-md:max-w-full">
           Still have questions?
         </div>
         <div className="mt-4 text-center max-md:max-w-full">
           Contact us for further assistance.
         </div>
-        <div className="justify-center px-6 py-3 mt-6 mb-10 text-base whitespace-nowrap border border-solid border-[color:var(--Color-Brand-black,#000)] max-md:px-5">
+        <div className="justify-center px-6 py-3 mt-6 mb-10 text-base whitespace-nowrap border border-solid border-[color:var(--buttons-primary,#F90)] max-md:px-5">
           Contact
         </div>
       </div>
-      <div className="flex flex-col items-center px-20 py-12 w-full text-white bg-black bg-opacity-50 leading-[150%] max-md:px-5 max-md:max-w-full">
+      <div className="flex flex-col items-center px-20 py-12 w-full bg-black bg-opacity-50 leading-[150%] text-zinc-800 max-md:px-5 max-md:max-w-full">
         <div className="mt-16 text-5xl font-bold text-center leading-[58px] w-[768px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
           Discover the Study Abroad Experience
         </div>
@@ -409,7 +409,7 @@ export default function Resource(props) {
           studying abroad.
         </div>
         <div className="flex gap-4 pt-4 mt-6 mb-10 text-base whitespace-nowrap">
-          <div className="grow justify-center px-6 py-3 bg-black border border-solid border-[color:var(--Color-Brand-black,#000)] max-md:px-5">
+          <div className="grow justify-center px-6 py-3 bg-amber-500 border border-solid border-[color:var(--buttons-primary,#F90)] max-md:px-5">
             Sign Up
           </div>
           <div className="grow justify-center px-6 py-3 border border-solid border-[color:var(--Color-Brand-white,#FFF)] max-md:px-5">
@@ -417,11 +417,11 @@ export default function Resource(props) {
           </div>
         </div>
       </div>
-      <div className="flex flex-col px-16 py-12 w-full bg-white max-md:px-5 max-md:max-w-full">
+      <div className="flex flex-col px-16 py-12 w-full bg-neutral-100 max-md:px-5 max-md:max-w-full">
         <div className="flex gap-5 justify-between mt-8 w-full max-md:flex-wrap max-md:max-w-full">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/46903210dcc61c4d7492f79c7b13ef1607872bf2a99950a2759f768b861ea721?apiKey=074c83f0827040edbff71f710b0abb50&"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/0c045115b694fbb7bafcc5c24e6f4bb1d8e3f3dc547cf28d178cfa261be962ef?apiKey=074c83f0827040edbff71f710b0abb50&"
             className="my-auto aspect-[2.33] w-[63px]"
           />
           <div className="flex gap-5 justify-between max-md:flex-wrap max-md:max-w-full">
@@ -461,9 +461,9 @@ export default function Resource(props) {
             </div>
           </div>
         </div>
-        <div className="shrink-0 mt-20 h-px bg-black border border-solid border-[color:var(--Border-primary,#000)] max-md:mt-10 max-md:max-w-full" />
+        <div className="shrink-0 mt-20 h-px bg-amber-500 border border-solid border-[color:var(--buttons-primary,#F90)] max-md:mt-10 max-md:max-w-full" />
         <div className="flex gap-5 justify-between self-center mt-8 mb-8 text-sm leading-5 max-md:flex-wrap max-md:max-w-full">
-          <div className="grow text-black whitespace-nowrap">
+          <div className="grow whitespace-nowrap text-zinc-800">
             © 2023 StudyLife. All rights reserved.
           </div>
           <div className="flex gap-5 justify-between text-black">
@@ -480,4 +480,5 @@ export default function Resource(props) {
     </div>
   );
 }
+
 
