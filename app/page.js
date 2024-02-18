@@ -8,7 +8,7 @@ export default function Home(props) {
           <Link href='/'>
             <img
               loading='lazy'
-              src=''
+              src='/logo.svg'
               className='self-stretch my-auto aspect-[2.33] w-[100px]'
             />
           </Link>
